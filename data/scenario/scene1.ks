@@ -1,0 +1,20 @@
+[_tb_system_call storage=system/_scene1.ks]
+
+[cm  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="diary.ogg"  ]
+[l  ]
+[bg  storage="train.png"  time="1000"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_show_message_window  ]
+[font  size="20"  color="0xffffff"  face="cursive"  italic="true"  ]
+[tb_start_text mode=1 ]
+列車は揺れている[p]
+見渡す限り、ここには雪と線路しかない[p]
+延々と東へと伸びている線路に向かって、列車は進み続ける[p]
+不吉な煙を吐き出しながら、東へと[p]
+
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[s  ]
